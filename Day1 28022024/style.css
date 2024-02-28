@@ -1,0 +1,113 @@
+/*utility styles */
+
+.icon-resize {
+  width: 20px;
+  height: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+/* element specified style */
+
+body {
+  background-color: #f2f8ff;
+  padding: 75px 0 0 60px;
+}
+
+.search-bar {
+  gap: 0.5em;
+  border: 2px solid #d3dcef;
+  padding: 0.5em;
+  background-color: #fff;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 200px;
+}
+
+.search-bar svg {
+  color: #68647e;
+}
+
+header {
+  gap: 1rem;
+  align-items: center;
+}
+
+.sort {
+  gap: 0.25em;
+}
+
+.filter1,
+.filter2,
+.filter3 {
+  gap: 0.25em;
+  align-items: center;
+}
+
+.filter1 input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #d3dcef;
+}
+
+.filter2 {
+  padding-inline: 1em;
+}
+
+main {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2em 1em 2em 2em;
+  margin: 5rem 8rem 5rem 0;
+  float: right;
+  width: 290px;
+  height: 260px;
+}
+
+.profile-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 3px;
+  background-color: #ced8eb;
+  margin-bottom: 1em;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.wrapper > p {
+  font-size: 0.8rem;
+  margin-block: 0.5rem;
+  font-weight: bold;
+  color: #3c3c3d;
+}
+
+.skils {
+  gap: 0.2em;
+  font-size: 0.9rem;
+}
+
+.skils p {
+  margin: 0.8em 0 1.5em 0;
+  background-color: #e6eeff;
+  padding: 0.4em;
+  border-radius: 20px;
+}
+
+.reviews {
+  text-decoration: underline;
+  padding-top: 0.4em;
+}
